@@ -59,10 +59,10 @@ similarity.pkl - Cosine similarity matrix​
 ## 3. Configure Django
 text
 MovieRecommender/
-├── views.py          # Copy provided views.py[file:3]
+├── views.py          
 ├── templates/
 │   └── MovieRecommender/
-│       └── recommend.html  # Copy provided HTML[file:2]
+│       └── recommend.html  
 └── urls.py
 settings.py (add):
 
