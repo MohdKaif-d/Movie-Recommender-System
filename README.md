@@ -26,11 +26,11 @@ Dataset: TMDB 5000 movies + credits​
 ## Project Structure
 text
 .
-├── Movie_Recommender_System.ipynb    # Data processing & model training
-├── views.py                         # Django recommendation logic[file:3]
-├── recommend.html                   # Frontend template[file:2]
-├── movies_dict.pkl                  # Processed movie data
-└── similarity.pkl                   # Pre-computed similarity matrix
+├── Movie_Recommender_System.ipynb    
+├── views.py                         
+├── recommend.html                   
+├── movies_dict.pkl                  
+└── similarity.pkl                   
 Quick Demo
 text
 Input: "Avatar"
