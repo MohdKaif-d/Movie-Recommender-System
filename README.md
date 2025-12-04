@@ -61,10 +61,10 @@ text
 MovieRecommender/
 ├── views.py          
 ├── templates/
-│   └── MovieRecommender/
-│       └── recommend.html  
+    └── MovieRecommender/
+       └── recommend.html  
 └── urls.py
-settings.py (add):
+settings.py
 
 python
 INSTALLED_APPS += ['MovieRecommender']
