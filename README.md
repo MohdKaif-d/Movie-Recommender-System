@@ -78,3 +78,19 @@ path('recommend/', MovieRecommender.views.recommend, name='recommend')
 bash
 python manage.py runserver
 Visit http://127.0.0.1:8000/recommend/
+
+## API Key Setup
+Replace TMDB API key in views.py:
+python
+API_KEY = "your_tmdb_api_key"
+
+## Limitations
+Content-based only (no collaborative filtering)
+Static pickle files (retrain for new data)
+English movies primarily​
+
+## Future Enhancements
+User ratings integration
+Collaborative filtering hybrid
+Real-time model retraining
+More metadata features
