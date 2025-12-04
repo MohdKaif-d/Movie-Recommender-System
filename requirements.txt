@@ -1,0 +1,15 @@
+## Software Requirements
+Python 3.8 or higher
+Django 4.0 or higher
+
+## Python Libraries
+pandas
+numpy
+matplotlib
+scikit-learn (for TF-IDF vectorization and cosine similarity)
+
+## External Services
+TMDB API key (to fetch movie posters, replace the API key in views.py)
+
+## Dataset
+TMDB 5000 Movies Dataset CSV files (used in the notebook to create movie data and similarity matrix)
